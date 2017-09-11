@@ -1,0 +1,16 @@
+@mixin button($bg,$padding,$border,$border-radius,$font-color,$font-size) {
+  background: $bg;
+  padding:$padding;
+  border:$border;
+  border-radius:$border-radius;
+  color:$font-color;
+  font-size:$font-size;
+}
+
+@mixin text-format($font-color,$font-size,$margin,$padding,$font-family) {
+  margin:$margin;
+  padding:$padding;
+  font-family:$font-family;
+  color:$font-color;
+  font-size:$font-size;
+}
